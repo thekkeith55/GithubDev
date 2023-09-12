@@ -11,6 +11,7 @@ namespace BasicAppTest
         public void TestMethod1()
         {
             Class1 tp = new Class1();
+            //here is a comment
             Assert.AreEqual(tp.Name, "[Kyler Keith] - The Code Master");
         }
     }
